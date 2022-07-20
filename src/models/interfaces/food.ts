@@ -6,3 +6,10 @@ export interface FoodItens {
     available: boolean;
     image: string;
 }
+
+export interface DataItens {
+    name: string,
+    image: string,
+    price: number,
+    description: string,
+  }
